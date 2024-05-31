@@ -45,7 +45,7 @@ int main()
     //  fprintf(fptr, "Your name is %s\n", name);
 
     char store[20];
-    // fscanf(fptr, store, 20);
+    fscanf(fptr, "%s", &store);
 
     printf("The data is %s\n", store);
 
